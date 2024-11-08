@@ -1,0 +1,43 @@
+# Binaries
+/bin/
+/build/
+/dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Logs
+*.log
+
+# Environment Variables
+.env
+
+# Dependencies
+/vendor/
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+
+# Go-specific
+*.test
+*.out
+*.coverprofile
+*.cover.out
+*.mod
+*.sum
+
+# IDE/Editor-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# GORM specific generated files
+gorm.db
+
+# Generated documentation
+/doc/
+
